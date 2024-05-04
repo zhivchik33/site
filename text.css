@@ -1,0 +1,29 @@
+h1{
+	font-weight: 400;
+	font-family: Times, "Times New Roman", serif;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+}
+h2{
+	text-align: left;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+p{
+	text-align: justify;
+	text-indent: 24px;
+	line-height: 24px;
+}
+.fr{
+	border: solid 1px red;
+	float: right;
+	padding: 10px;
+	display: flex;
+  flex-flow: column;
+  padding: 5px;
+}
+.fr figcaption{
+	font-size: 1.1em;
+	
+}

@@ -1,0 +1,49 @@
+body{
+    background-color: green
+}
+p{
+font-size: 50px;
+font-family: "Rubik Glitch", system-ui;
+text-align: center;
+color: black;
+background-color: yellow
+}
+
+ul, ol{
+    font-size: 24px;
+    color: navajowhite;
+}
+
+.list-1 li::marker{
+    color: red ;
+    font-size: 1.1em;
+}
+
+.list-2 li{
+    padding-left: 10px;
+}
+
+ol{
+    margin-left: 50px;
+}
+
+@counter-style emoji {
+    system: cyclic;
+    symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+    suffix: " ";
+  }
+
+  .list-3{
+    list-style: emoji;
+  }
+
+  @counter-style ukrainian-alphabet {
+    system: cyclic;
+    symbols: 'а' 'б' 'е' 'г' 'г' 'д' 'е' 'є' 'ж' 'з' 'и' 'і' 'ї' 'й' 'к' 'л' 'м' 'н' 'о' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ч' 'ш' 'щ' 'ь' 'ю' 'я';
+    suffix: " ";
+  }
+  .list-4{
+    list-style: ukrainian-alphabet ;
+    margin-left: 100px;
+   
+  }

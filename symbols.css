@@ -1,0 +1,89 @@
+body {
+	background-color: lightskyblue;
+}
+p{
+	font-size: 50px;
+}
+.p1{
+	background-color: darkorange;
+	color: darkgreen;
+}
+.p2{
+	color: darkcyan;
+}
+.p3{
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+.p4{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.p5{
+	font-family: "Lucida Console", Courier, monospace;
+}
+.p6{
+	font-family: cursive;
+}
+.p7{
+	font-family: "Rubik Glitch Pop", system-ui;
+	color: orange;
+	text-shadow: 0 0 5px red;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-underline-position: under;
+	text-decoration-color: blueviolet;
+}
+.p8{
+	font-family: "Caveat", cursive;
+	color: yellow;
+	text-shadow: 3px 3px brown;
+	text-decoration: underline;
+}
+.p9{
+	font-family: "Lobster", sans-serif;
+	text-shadow: 3px -3px yellow;
+	color: blue;
+	text-decoration: underline;
+	text-decoration-color: red;
+	text-underline-position: under;
+	text-decoration-style: dashed;
+}
+.p10{
+	font-family: "Oswald", sans-serif;
+}
+.p11{
+	font: 50px Arial, sans-serif;
+}
+.p12{
+	font-family: cursive;
+		font-weight: 900;
+}
+.p13{
+	font-family: "Lobster", cursive;
+	font-variant: small-caps;
+}
+.p14{
+	font-family: 'Rubik Wet Paint', cursive;
+	color: red;
+	background-color: black;
+}
+.p16{
+	text-shadow: 0 0 10px red;
+}
+.p17{
+	text-shadow: 3px -3px darkblue;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.p18{
+	text-shadow: 1px 1px 2px black, 0 0 1em yellow, 0 0 0.2em yellow;
+	color: white;
+	font: 2.5em Georgia, serif;
+	background-color: #fff;
+}
+.p19{
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-underline-position: under;
+	text-decoration-color: blue;
+	height: 100px;
+}
